@@ -1,2 +1,2 @@
-# Tasker1C_AutomationRoutine-
+# Tasker1C_AutomationRoutine
 Расширение для Таскера 1с с автоматизацией повседневных задач
