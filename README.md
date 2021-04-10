@@ -6,6 +6,7 @@
 * Выгрузка последней версии хранилища конфигурации
 * Помощник сборки релиза
 ![ПомощникСборкиРелизов](https://github.com/hawkxtreme/Tasker1C_AutomationRoutine/blob/main/img/ReleaseBuildAssistant.gif?raw=true)
+    
     В рамках данного помощника формируется
     * Документы "Выпуск релиза"
     * Файлы конфигруации
