@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<InformationRegister uuid="17c26f52-66ae-4809-9a37-de79829a7d6b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.узСпринтыЗадач" category="Record">
+				<xr:TypeId>97d24b65-067a-45b6-ac4c-9062ff379b54</xr:TypeId>
+				<xr:ValueId>fe34a2b5-52d8-4d5f-adb2-84f1d3ee2ede</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.узСпринтыЗадач" category="Manager">
+				<xr:TypeId>0cf79599-a469-44e1-843a-e0e1cc51cf23</xr:TypeId>
+				<xr:ValueId>060c7da0-3dad-421b-9a9d-2efbfbeea831</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.узСпринтыЗадач" category="Selection">
+				<xr:TypeId>aa47e925-f408-4e96-bb0c-6845c0003336</xr:TypeId>
+				<xr:ValueId>805f4441-da3b-4994-9159-e89301ab071a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.узСпринтыЗадач" category="List">
+				<xr:TypeId>914b7dd4-3857-4cd4-93fe-273695acda94</xr:TypeId>
+				<xr:ValueId>f8cd4519-8a38-4e6d-8224-fe1d02f89c16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.узСпринтыЗадач" category="RecordSet">
+				<xr:TypeId>0298bbd8-e9bc-4530-95d7-e0e3afc98821</xr:TypeId>
+				<xr:ValueId>79d42e7a-b408-4583-af2e-3ff67e255e6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.узСпринтыЗадач" category="RecordKey">
+				<xr:TypeId>4f75e03c-5783-44ea-a900-00886acdb8c9</xr:TypeId>
+				<xr:ValueId>b09143de-e8f9-4756-a14d-dfbeb8dc2327</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.узСпринтыЗадач" category="RecordManager">
+				<xr:TypeId>3d682785-0a82-49c3-a8d0-0be68e9aeda7</xr:TypeId>
+				<xr:ValueId>593ba13c-0c5b-4b8d-9002-1676d5370ffb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>узСпринтыЗадач</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a2801aa4-26e3-44ab-8819-c0b8b604b1b8">
+				<Properties>
+					<Name>Спринт</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.узСпринты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="cd463be6-db46-4b25-a11c-1208a56954e2">
+				<Properties>
+					<Name>Задача</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.узЗадачи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Catalog uuid="3f72ecbd-423e-48d7-a5a4-36cc92d1eb6e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.узСтатусыЗадачи" category="Object">
+				<xr:TypeId>bafdcb2c-4ecd-41c7-a6cf-bdc9e04a0722</xr:TypeId>
+				<xr:ValueId>7b0c21d8-e3eb-4b05-a876-7ffd4f5cc9ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.узСтатусыЗадачи" category="Ref">
+				<xr:TypeId>2bcdb637-c62e-426d-8fdd-57264e80c2ae</xr:TypeId>
+				<xr:ValueId>4fc58cc9-0f32-4532-b3db-e7be42ff2737</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.узСтатусыЗадачи" category="Selection">
+				<xr:TypeId>64767696-97a2-4d80-b8cb-9a7b2924c22e</xr:TypeId>
+				<xr:ValueId>20d83fc6-c452-47ae-9f03-71bc992cbdd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.узСтатусыЗадачи" category="List">
+				<xr:TypeId>143eab58-4391-4479-a249-0007d18f2f84</xr:TypeId>
+				<xr:ValueId>f0ac8e18-57ad-4850-a559-3f1f9871eda6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.узСтатусыЗадачи" category="Manager">
+				<xr:TypeId>88d5726c-b88f-4ee5-93c5-cea76778b2a1</xr:TypeId>
+				<xr:ValueId>78d62dc6-6bc9-437a-8db9-d5e46a2ea051</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>узСтатусыЗадачи</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
