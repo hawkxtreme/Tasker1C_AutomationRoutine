@@ -64,14 +64,21 @@
 			<CommonModule>Ар_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>Ар_РаботаСКоманднойСтрокойВызовСервера</CommonModule>
 			<CommonModule>Ар_РаботаСКоманднойСтрокойКлиентСервер</CommonModule>
+			<CommonModule>Ар_СписокБазВызовСервера</CommonModule>
+			<CommonModule>Ар_СписокБазКлиент</CommonModule>
 			<CommonCommand>Ар_ВыгрузитьПоследнююВерсиюХранилища</CommonCommand>
 			<CommandGroup>Ар_Хранилище</CommandGroup>
+			<Catalog>Ар_ИнформационныеБазы</Catalog>
+			<Catalog>Ар_Хранилища</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>узЗадачи</Catalog>
 			<Catalog>узКонфигурации</Catalog>
 			<Catalog>узСпринты</Catalog>
 			<Catalog>узСтатусыЗадачи</Catalog>
 			<Document>узВыпускРелиза</Document>
+			<Enum>Ар_Разрядность</Enum>
+			<Enum>Ар_РежимЗапуска</Enum>
+			<Enum>Ар_ТипыРасположенияИнформационныйБазы</Enum>
 			<DataProcessor>Ар_ПомощникСборкиРелизов</DataProcessor>
 			<DataProcessor>Ар_СозданиеФайлаНастроекОбъединения</DataProcessor>
 			<InformationRegister>узСпринтыЗадач</InformationRegister>
