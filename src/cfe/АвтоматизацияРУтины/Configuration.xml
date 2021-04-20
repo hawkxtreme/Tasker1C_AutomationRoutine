@@ -59,14 +59,19 @@
 			<Language>Русский</Language>
 			<Subsystem>Ар_АвтоматизацияРутины</Subsystem>
 			<CommonPicture>Ар_arc1c</CommonPicture>
+			<CommonPicture>Ар_designer</CommonPicture>
+			<CommonPicture>Ар_enterprise</CommonPicture>
 			<Role>Ар_ПолныеПрава</Role>
 			<Role>Ар_Пользователь</Role>
+			<CommonModule>Ар_ИнформационныеБазыВызовСервера</CommonModule>
+			<CommonModule>Ар_ИнформационныеБазыКлиент</CommonModule>
 			<CommonModule>Ар_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>Ар_РаботаСКоманднойСтрокойВызовСервера</CommonModule>
 			<CommonModule>Ар_РаботаСКоманднойСтрокойКлиентСервер</CommonModule>
-			<CommonModule>Ар_СписокБазВызовСервера</CommonModule>
-			<CommonModule>Ар_СписокБазКлиент</CommonModule>
 			<CommonCommand>Ар_ВыгрузитьПоследнююВерсиюХранилища</CommonCommand>
+			<CommandGroup>Ар_ИнформационныеБазы</CommandGroup>
+			<CommandGroup>Ар_КомандыКонфигуратора</CommandGroup>
+			<CommandGroup>Ар_КомандыПредприятия</CommandGroup>
 			<CommandGroup>Ар_Хранилище</CommandGroup>
 			<Catalog>Ар_ИнформационныеБазы</Catalog>
 			<Catalog>Ар_Хранилища</Catalog>
@@ -81,6 +86,7 @@
 			<Enum>Ар_ТипыРасположенияИнформационныйБазы</Enum>
 			<DataProcessor>Ар_ПомощникСборкиРелизов</DataProcessor>
 			<DataProcessor>Ар_СозданиеФайлаНастроекОбъединения</DataProcessor>
+			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>
 			<InformationRegister>узСпринтыЗадач</InformationRegister>
 		</ChildObjects>
 	</Configuration>

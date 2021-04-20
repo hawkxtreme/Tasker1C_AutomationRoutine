@@ -1,12 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаДерево" id="21">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<OnlyInAllActions>true</OnlyInAllActions>
+				<CommandName>Form.Item.Список.StandardCommand.Tree</CommandName>
+				<ExtendedTooltip name="ФормаДеревоРасширеннаяПодсказка" id="22"/>
+			</Button>
+			<Button name="ФормаСписок" id="19">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<OnlyInAllActions>true</OnlyInAllActions>
+				<CommandName>Form.Item.Список.StandardCommand.List</CommandName>
+				<ExtendedTooltip name="ФормаСписокРасширеннаяПодсказка" id="20"/>
+			</Button>
+			<Button name="ФормаГрупповоеИзменение_ИзменитьВыделенныеКоманда" id="23">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ГрупповоеИзменение_ИзменитьВыделенныеКоманда</CommandName>
+				<ExtendedTooltip name="ФормаГрупповоеИзменение_ИзменитьВыделенныеКомандаРасширеннаяПодсказка" id="24"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="19">
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="34">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -24,7 +46,7 @@
 			<DefaultItem>true</DefaultItem>
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
-			<SelectionMode>SingleRow</SelectionMode>
+			<RowSelectionMode>Row</RowSelectionMode>
 			<Header>false</Header>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -46,7 +68,28 @@
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
-			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="СписокКонтекстноеМенюСправочникАр_ИнформационныеБазыОткрытьПредприятие" id="30">
+						<Type>CommandBarButton</Type>
+						<CommandName>Catalog.Ар_ИнформационныеБазы.Command.ОткрытьПредприятие</CommandName>
+						<DataPath>Items.Список.CurrentData.Ref</DataPath>
+						<ExtendedTooltip name="СписокКонтекстноеМенюСправочникАр_ИнформационныеБазыОткрытьПредприятиеРасширеннаяПодсказка" id="31"/>
+					</Button>
+					<Button name="СписокКонтекстноеМенюСправочникАр_ИнформационныеБазыОткрытьКонфигуратор" id="32">
+						<Type>CommandBarButton</Type>
+						<CommandName>Catalog.Ар_ИнформационныеБазы.Command.ОткрытьКонфигуратор</CommandName>
+						<DataPath>Items.Список.CurrentData.Ref</DataPath>
+						<ExtendedTooltip name="СписокКонтекстноеМенюСправочникАр_ИнформационныеБазыОткрытьКонфигураторРасширеннаяПодсказка" id="33"/>
+					</Button>
+					<Button name="СписокКонтекстноеМенюГрупповоеИзменение_ИзменитьВыделенныеКоманда" id="28">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ГрупповоеИзменение_ИзменитьВыделенныеКоманда</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюГрупповоеИзменение_ИзменитьВыделенныеКомандаРасширеннаяПодсказка" id="29"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
@@ -75,18 +118,22 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="DragCheck">СписокПроверкаПеретаскивания</Event>
+				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+				<Event name="Drag">СписокПеретаскивание</Event>
+			</Events>
 			<ChildItems>
-				<LabelField name="Наименование" id="16">
-					<DataPath>Список.Description</DataPath>
-					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+				<LabelField name="Ссылка" id="25">
+					<DataPath>Список.Ref</DataPath>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Список" id="1">
+		<Attribute name="Список" id="35">
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
@@ -114,4 +161,21 @@
 			</Settings>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ГрупповоеИзменение_ИзменитьВыделенныеКоманда" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить выделенные..</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Групповое изменение изменить выделенные команда</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ГрупповоеИзменение_ИзменитьВыделенныеКоманда</Action>
+		</Command>
+	</Commands>
 </Form>
