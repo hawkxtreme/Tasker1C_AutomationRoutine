@@ -1113,6 +1113,56 @@
 					<Shortcut/>
 				</Properties>
 			</Command>
+			<Command uuid="c44c3252-cf2b-4376-af02-9ccfd3158144">
+				<Properties>
+					<Name>ОбновитьВсеРеквизиты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновить все реквизиты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_ИнформационныеБазы</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_database_refresh</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="6ce8ece2-8b00-44fd-811f-bec12bfc2160">
+				<Properties>
+					<Name>ОбновитьОбязательныеРеквизиты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновить обязательные реквизиты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_ИнформационныеБазы</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_database_refresh</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -59,6 +59,8 @@
 			<Language>Русский</Language>
 			<Subsystem>Ар_АвтоматизацияРутины</Subsystem>
 			<CommonPicture>Ар_arc1c</CommonPicture>
+			<CommonPicture>Ар_database</CommonPicture>
+			<CommonPicture>Ар_database_refresh</CommonPicture>
 			<CommonPicture>Ар_designer</CommonPicture>
 			<CommonPicture>Ар_enterprise</CommonPicture>
 			<Role>Ар_ПолныеПрава</Role>
