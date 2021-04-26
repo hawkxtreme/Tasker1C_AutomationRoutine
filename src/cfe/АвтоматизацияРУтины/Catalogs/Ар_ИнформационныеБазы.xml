@@ -1163,6 +1163,31 @@
 					<Shortcut/>
 				</Properties>
 			</Command>
+			<Command uuid="3d093e3a-3aa1-41e8-801e-19e67b34d7ad">
+				<Properties>
+					<Name>Кластер_СвойствоИнформационнойБазы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойство информационной базы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

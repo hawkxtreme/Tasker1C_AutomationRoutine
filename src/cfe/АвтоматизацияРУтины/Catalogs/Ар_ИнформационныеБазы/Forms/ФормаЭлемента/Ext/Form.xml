@@ -357,7 +357,6 @@
 							<ChildItems>
 								<InputField name="ДополнительныеПараметрыЗапуска" id="31">
 									<DataPath>Объект.ДополнительныеПараметрыЗапуска</DataPath>
-									<ReadOnly>true</ReadOnly>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДополнительныеПараметрыЗапускаКонтекстноеМеню" id="32"/>
@@ -372,7 +371,6 @@
 								</InputField>
 								<RadioButtonField name="ОсновнойРежимЗапуска" id="52">
 									<DataPath>Объект.ОсновнойРежимЗапуска</DataPath>
-									<ReadOnly>true</ReadOnly>
 									<TitleLocation>Top</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
 									<RadioButtonType>Auto</RadioButtonType>
@@ -423,14 +421,12 @@
 								</RadioButtonField>
 								<InputField name="Версия1С" id="34">
 									<DataPath>Объект.Версия1С</DataPath>
-									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="Версия1СКонтекстноеМеню" id="35"/>
 									<ExtendedTooltip name="Версия1СРасширеннаяПодсказка" id="36"/>
 								</InputField>
 								<InputField name="Разрядность" id="37">
 									<DataPath>Объект.Разрядность</DataPath>
-									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="РазрядностьКонтекстноеМеню" id="38"/>
 									<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="39"/>
