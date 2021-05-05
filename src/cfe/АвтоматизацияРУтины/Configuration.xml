@@ -78,6 +78,7 @@
 			<CommandGroup>Ар_КомандыКонфигуратора</CommandGroup>
 			<CommandGroup>Ар_КомандыПредприятия</CommandGroup>
 			<CommandGroup>Ар_Хранилище</CommandGroup>
+			<CommonForm>Ар_ФормаАутентификации</CommonForm>
 			<Catalog>Ар_ИнформационныеБазы</Catalog>
 			<Catalog>Ар_Хранилища</Catalog>
 			<Catalog>Пользователи</Catalog>

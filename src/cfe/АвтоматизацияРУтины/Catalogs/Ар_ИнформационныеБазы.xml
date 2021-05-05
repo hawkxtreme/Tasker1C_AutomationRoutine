@@ -1063,6 +1063,7 @@
 			</Attribute>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
+			<Form>Кластер_СвойстваБлокировокИнформационнойБазы</Form>
 			<Command uuid="3d4eec2b-627f-45a1-a405-185381f77399">
 				<Properties>
 					<Name>ОткрытьПредприятие</Name>
@@ -1165,11 +1166,261 @@
 			</Command>
 			<Command uuid="3d093e3a-3aa1-41e8-801e-19e67b34d7ad">
 				<Properties>
-					<Name>Кластер_СвойствоИнформационнойБазы</Name>
+					<Name>Кластер_СвойствоБлокировкИнформационнойБазы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Свойство информационной базы</v8:content>
+							<v8:content>Свойство блокировок информационной базы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="dbb12df4-511f-409d-a487-340be7f60310">
+				<Properties>
+					<Name>Кластер_УстановитьБлокировкуРегламентныхЗаданий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить блокировку регламентных заданий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="6579ee92-fa45-4037-a6b4-e40536e96fca">
+				<Properties>
+					<Name>Кластер_СнятьБлокировкуРегламентныхЗаданий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Снять блокировку регламентных заданий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="b3b56399-b5b1-4d41-b343-bc0bb3eb9c88">
+				<Properties>
+					<Name>Кластер_УстановитьБлокировкуСеансов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить блокировку сеансов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="2e6c81f3-ff67-4911-85af-e345b9fb0b1c">
+				<Properties>
+					<Name>Кластер_СнятьБлокировкуСеансов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Снять блокировку сеансов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="5ad92a7d-5676-4e31-a53f-6f0f791e7b64">
+				<Properties>
+					<Name>Кластер_УстановитьБлокировкуСеансовИЗаданий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установить блокировку сеансов и регламентных заданий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="b08499bf-1d4f-4e61-aa4d-f9eb40cb470e">
+				<Properties>
+					<Name>Кластер_СнятьБлокировкуСеансовИЗаданий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Снять блокировку сеансов и регламентных заданий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="e50e9b4e-16c6-43b7-a86d-8d52b7041723">
+				<Properties>
+					<Name>Кластер_СеансыИнформационнойБазы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сеансы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="4bc79fe7-dce0-48cb-84c4-410171bfba40">
+				<Properties>
+					<Name>Кластер_УдалитьСеансыИнформационнойБазы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удалить сеансы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="da8d2ed8-7b5b-4ab0-bdff-bfa1a122cc9f">
+				<Properties>
+					<Name>Кластер_СоединенияСИнформационнойБазой</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Соединения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_Кластер</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_cluster</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="03a859b2-803f-4d15-ba1d-ec46530c0f44">
+				<Properties>
+					<Name>Кластер_РазорватьСоединенияСИнформационнойБазой</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разорвать соединения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
