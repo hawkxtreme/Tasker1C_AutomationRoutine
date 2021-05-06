@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
 	<ConfigVersions>
-		<Metadata name="Catalog.Ар_ИнформационныеБазы" id="fbd4a991-068a-4019-b4e1-0ab95d8c1e5b" configVersion="007114d06a0a39c2b504abd188fb0e8770746b63">
+		<Metadata name="Catalog.Ар_ИнформационныеБазы" id="fbd4a991-068a-4019-b4e1-0ab95d8c1e5b" configVersion="b02367e3db3bde0139e6600075608cf15b708cf8">
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_РазорватьСоединенияСИнформационнойБазой" id="03a859b2-803f-4d15-ba1d-ec46530c0f44"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Attribute.КластерСерверов" id="063b56f4-0532-4d76-8d46-2724223f8086"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Attribute.Логин" id="0840092b-911a-45a8-aec6-e22b83442ab3"/>
@@ -12,7 +12,7 @@
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СнятьБлокировкуСеансов" id="2e6c81f3-ff67-4911-85af-e345b9fb0b1c"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Attribute.Разрядность" id="2e99b12f-3e4e-48f0-828e-290221e337bd"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Attribute.ДополнительныеПараметрыЗапуска" id="3917f095-3da0-495d-bb4b-71ed0eac7015"/>
-			<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СвойствоБлокировкИнформационнойБазы" id="3d093e3a-3aa1-41e8-801e-19e67b34d7ad"/>
+			<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СвойстваБлокировкИнформационнойБазы" id="3d093e3a-3aa1-41e8-801e-19e67b34d7ad"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.ОткрытьПредприятие" id="3d4eec2b-627f-45a1-a405-185381f77399"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_УдалитьСеансыИнформационнойБазы" id="4bc79fe7-dce0-48cb-84c4-410171bfba40"/>
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Attribute.Хранилище" id="4c0eb913-e65a-4fc9-a686-0fe82d89455a"/>
@@ -36,7 +36,7 @@
 			<Metadata name="Catalog.Ар_ИнформационныеБазы.Attribute.ВнешняяОбработка" id="ea228665-9b60-4a9d-baec-e3792583d199"/>
 		</Metadata>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_РазорватьСоединенияСИнформационнойБазой.CommandModule" id="03a859b2-803f-4d15-ba1d-ec46530c0f44.2" configVersion="3ecc583f3dbc3112bbdb489700e05929cbbdc4b1"/>
-		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СвойствоБлокировкИнформационнойБазы.CommandModule" id="3d093e3a-3aa1-41e8-801e-19e67b34d7ad.2" configVersion="abdaeda1644e2e5a16d40635db8b258e720bc517"/>
+		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СвойстваБлокировкИнформационнойБазы.CommandModule" id="3d093e3a-3aa1-41e8-801e-19e67b34d7ad.2" configVersion="abdaeda1644e2e5a16d40635db8b258e720bc517"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СеансыИнформационнойБазы.CommandModule" id="e50e9b4e-16c6-43b7-a86d-8d52b7041723.2" configVersion="f4593c51b1dcdbbc57f0013f02cd02b9870bb6e2"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СнятьБлокировкуРегламентныхЗаданий.CommandModule" id="6579ee92-fa45-4037-a6b4-e40536e96fca.2" configVersion="daff29fd1bada2b845143bef1205c85cdebbce2b"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.Кластер_СнятьБлокировкуСеансов.CommandModule" id="2e6c81f3-ff67-4911-85af-e345b9fb0b1c.2" configVersion="7a8b303b60e97b6879747e71a101e812975ea286"/>
@@ -52,8 +52,12 @@
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Command.ОткрытьПредприятие.CommandModule" id="3d4eec2b-627f-45a1-a405-185381f77399.2" configVersion="609da49707977cdec58af82183e454d12a44f586"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.Кластер_СвойстваБлокировокИнформационнойБазы" id="14c319b6-eeaf-48fe-8e30-0d3f91a6a543" configVersion="730a2e672a2748ad8c8a0279ffa990aae93fc8d6"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.Кластер_СвойстваБлокировокИнформационнойБазы.Form" id="14c319b6-eeaf-48fe-8e30-0d3f91a6a543.0" configVersion="0b9ead72f43889b9eea7902c11eb7d089e4fc355"/>
+		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.Кластер_Сеансы" id="ea6c73ef-8591-4aae-9418-03ba7245997c" configVersion="8dbb8ce405d673cf8430150ef35e81c83d1d5660"/>
+		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.Кластер_Сеансы.Form" id="ea6c73ef-8591-4aae-9418-03ba7245997c.0" configVersion="03fc4a45ca0c08a86b0d279a1f6a37219217e191"/>
+		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.Кластер_Соединения" id="44798e4b-3ac7-4574-adcc-2b865560d66a" configVersion="133e6369fefc964e5bc0736b99e292b22f6f8ec0"/>
+		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.Кластер_Соединения.Form" id="44798e4b-3ac7-4574-adcc-2b865560d66a.0" configVersion="30959913e516cb06bb2a020c00c82b95bfa5fe42"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.ФормаСписка" id="71a9505d-3186-4da5-abba-f49e36c47551" configVersion="a061f626662c294ccd40d102f2a0d3306fae59e7"/>
-		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.ФормаСписка.Form" id="71a9505d-3186-4da5-abba-f49e36c47551.0" configVersion="1249f7f2b5f67c144e0014933aa51792555e0ae0"/>
+		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.ФормаСписка.Form" id="71a9505d-3186-4da5-abba-f49e36c47551.0" configVersion="31b3915607bf697ea4bbb036cae869434bc4a903"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.ФормаЭлемента" id="26ff6643-aa9d-4007-8631-16dc491820fc" configVersion="6e9bed0387de78ed7dba2352c3af01cef1e76fc2"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.Form.ФормаЭлемента.Form" id="26ff6643-aa9d-4007-8631-16dc491820fc.0" configVersion="c93650033171324582a6588c708d5009221cdb3a"/>
 		<Metadata name="Catalog.Ар_ИнформационныеБазы.ManagerModule" id="fbd4a991-068a-4019-b4e1-0ab95d8c1e5b.3" configVersion="70f7fb74fcb7104764f804a415065d546e381cf2"/>
@@ -75,7 +79,7 @@
 		<Metadata name="Catalog.узСпринты" id="14005545-e67f-4675-b640-b0f177e05413" configVersion="596a53c8b7a9b35469c8afc2fe3a5e8943d4f602"/>
 		<Metadata name="Catalog.узСтатусыЗадачи" id="3f72ecbd-423e-48d7-a5a4-36cc92d1eb6e" configVersion="6a6f6f26b28a5a991a8d259912e0a0ed3382c344"/>
 		<Metadata name="CommandGroup.Ар_ИнформационныеБазы" id="f87897e8-21f9-4617-a5dd-2c67a536502e" configVersion="3ba45d5d75be4e99b7f8fd5b9cffa8e133dd324d"/>
-		<Metadata name="CommandGroup.Ар_Кластер" id="19309b18-a4e3-4ba7-b1be-c4ed2287dd12" configVersion="0126c1b24b3fd54beccf82b3629643b531f69f9a"/>
+		<Metadata name="CommandGroup.Ар_Кластер" id="19309b18-a4e3-4ba7-b1be-c4ed2287dd12" configVersion="8f315bc34facbdb60ddbdd7de23615b705ab9471"/>
 		<Metadata name="CommandGroup.Ар_КомандыКонфигуратора" id="625d7873-9ff3-46da-b9af-13ed79b93119" configVersion="e5596b17cbee4c975542b09f5dffcfb0ae84a654"/>
 		<Metadata name="CommandGroup.Ар_КомандыПредприятия" id="6f53c0ba-b983-497d-8bee-fb86f59d48c9" configVersion="0cbd9c9169052ae42db434fab707bf7d0c890816"/>
 		<Metadata name="CommandGroup.Ар_Хранилище" id="b3bbf529-cbf9-458b-9638-ee6e30ee3208" configVersion="d9a0b09c337500e87459971a1d77ea9d67c1f56b"/>
@@ -84,11 +88,11 @@
 		<Metadata name="CommonForm.Ар_ФормаАутентификации" id="0b7eed55-cdc9-4008-89e4-fc2a0b5994f8" configVersion="9d0d685379db110cf3c362db9e761ddabe90e86b"/>
 		<Metadata name="CommonForm.Ар_ФормаАутентификации.Form" id="0b7eed55-cdc9-4008-89e4-fc2a0b5994f8.0" configVersion="0682ab834bd6c9efcc977af806de0e311d5397f8"/>
 		<Metadata name="CommonModule.Ар_ИнформационныеБазы" id="94937dce-7533-4188-bc1e-d07e986e074b" configVersion="f334755938c3781c0aeda33fba87d91db3afb448"/>
-		<Metadata name="CommonModule.Ар_ИнформационныеБазы.Module" id="94937dce-7533-4188-bc1e-d07e986e074b.0" configVersion="236581a8897a24aa01d80031d59cc512561f7ad5"/>
+		<Metadata name="CommonModule.Ар_ИнформационныеБазы.Module" id="94937dce-7533-4188-bc1e-d07e986e074b.0" configVersion="1918879cb7963e7768ba34ff6009250c6eb31ff3"/>
 		<Metadata name="CommonModule.Ар_ИнформационныеБазыВызовСервера" id="9c7e19c2-7733-408a-806a-5adfd8aca221" configVersion="89d7ad5b6f25d73d4c341045a19e9f01f182f708"/>
 		<Metadata name="CommonModule.Ар_ИнформационныеБазыВызовСервера.Module" id="9c7e19c2-7733-408a-806a-5adfd8aca221.0" configVersion="b8d122bfc1bed662405f011aa3c86e0ded68aadb"/>
 		<Metadata name="CommonModule.Ар_ИнформационныеБазыКлиент" id="b1600ef9-43f0-4e87-a432-8ad397d89e0f" configVersion="b3f1ce0ad083e6cd5c77dbcf60146e2c0fdc389c"/>
-		<Metadata name="CommonModule.Ар_ИнформационныеБазыКлиент.Module" id="b1600ef9-43f0-4e87-a432-8ad397d89e0f.0" configVersion="4128b16c88f89b795d64b6b7baacca04a6b64542"/>
+		<Metadata name="CommonModule.Ар_ИнформационныеБазыКлиент.Module" id="b1600ef9-43f0-4e87-a432-8ad397d89e0f.0" configVersion="5f980bc69c7d75ba0cec5cf954fe4ea484d558f3"/>
 		<Metadata name="CommonModule.Ар_ОбщегоНазначенияКлиент" id="53fd5169-ace4-45f3-ade3-efcd0447fd7a" configVersion="ce5b09a0765531b5c2ecfd195c2fcb3e18e65001"/>
 		<Metadata name="CommonModule.Ар_ОбщегоНазначенияКлиент.Module" id="53fd5169-ace4-45f3-ade3-efcd0447fd7a.0" configVersion="aab2846b7f9cda66fd1091a9fa0c7118c087b703"/>
 		<Metadata name="CommonModule.Ар_РаботаСКоманднойСтрокойВызовСервера" id="376d38e5-9b68-42d3-9f74-a9c99283c63a" configVersion="f04de745676be42ec9d743ac27d7ef8f46089412"/>

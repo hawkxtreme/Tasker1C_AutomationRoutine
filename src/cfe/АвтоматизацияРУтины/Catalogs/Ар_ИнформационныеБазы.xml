@@ -1064,6 +1064,8 @@
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>Кластер_СвойстваБлокировокИнформационнойБазы</Form>
+			<Form>Кластер_Сеансы</Form>
+			<Form>Кластер_Соединения</Form>
 			<Command uuid="3d4eec2b-627f-45a1-a405-185381f77399">
 				<Properties>
 					<Name>ОткрытьПредприятие</Name>
@@ -1166,11 +1168,11 @@
 			</Command>
 			<Command uuid="3d093e3a-3aa1-41e8-801e-19e67b34d7ad">
 				<Properties>
-					<Name>Кластер_СвойствоБлокировкИнформационнойБазы</Name>
+					<Name>Кластер_СвойстваБлокировкИнформационнойБазы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Свойство блокировок информационной базы</v8:content>
+							<v8:content>Свойства блокировок информационной базы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
