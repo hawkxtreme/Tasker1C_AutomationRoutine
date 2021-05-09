@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаДерево" id="21">
@@ -28,7 +29,7 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="45">
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="51">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -38,14 +39,14 @@
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Vertical</Group>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="47"/>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="53"/>
 		</UsualGroup>
 		<UsualGroup name="Группа1" id="34">
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="35"/>
 			<ChildItems>
-				<Table name="Список" id="48">
+				<Table name="Список" id="55">
 					<Representation>Tree</Representation>
 					<CommandBarLocation>None</CommandBarLocation>
 					<DefaultItem>true</DefaultItem>
@@ -73,7 +74,7 @@
 					<AllowRootChoice>false</AllowRootChoice>
 					<UpdateOnDataChange>Auto</UpdateOnDataChange>
 					<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
-					<ContextMenu name="СписокКонтекстноеМеню" id="4">
+					<ContextMenu name="СписокКонтекстноеМеню" id="56">
 						<Autofill>false</Autofill>
 						<ChildItems>
 							<Button name="СписокКонтекстноеМенюСправочникАр_ИнформационныеБазыОткрытьПредприятие" id="30">
@@ -95,10 +96,10 @@
 							</Button>
 						</ChildItems>
 					</ContextMenu>
-					<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+					<AutoCommandBar name="СписокКоманднаяПанель" id="57">
 						<Autofill>false</Autofill>
 					</AutoCommandBar>
-					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="58"/>
 					<SearchStringAddition name="СписокСтрокаПоиска" id="7">
 						<AdditionSource>
 							<Item>Список</Item>
@@ -144,16 +145,106 @@
 					<ChildItems>
 						<Button name="СправочникАр_ИнформационныеБазыОткрытьПредприятие" id="38">
 							<Type>UsualButton</Type>
+							<Width>18</Width>
 							<CommandName>Catalog.Ар_ИнформационныеБазы.Command.ОткрытьПредприятие</CommandName>
 							<DataPath>Items.Список.CurrentData.Ref</DataPath>
 							<ExtendedTooltip name="СправочникАр_ИнформационныеБазыОткрытьПредприятиеРасширеннаяПодсказка" id="39"/>
 						</Button>
 						<Button name="СправочникАр_ИнформационныеБазыОткрытьКонфигуратор" id="40">
 							<Type>UsualButton</Type>
+							<Width>18</Width>
 							<CommandName>Catalog.Ар_ИнформационныеБазы.Command.ОткрытьКонфигуратор</CommandName>
 							<DataPath>Items.Список.CurrentData.Ref</DataPath>
 							<ExtendedTooltip name="СправочникАр_ИнформационныеБазыОткрытьКонфигураторРасширеннаяПодсказка" id="41"/>
 						</Button>
+						<RadioButtonField name="ТекущаяРазрядность" id="45">
+							<DataPath>ТекущаяРазрядность</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ItemWidth>18</ItemWidth>
+							<ColumnsCount>1</ColumnsCount>
+							<EqualColumnsWidth>true</EqualColumnsWidth>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_Разрядность.EnumValue.x64_Приоритет</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_Разрядность.EnumValue.x64</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_Разрядность.EnumValue.x86_Приоритет</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_Разрядность.EnumValue.x86</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ТекущаяРазрядностьКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="ТекущаяРазрядностьРасширеннаяПодсказка" id="47"/>
+						</RadioButtonField>
+						<RadioButtonField name="ТекущийРежимЗапуска" id="48">
+							<DataPath>ТекущийРежимЗапуска</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ItemWidth>18</ItemWidth>
+							<ColumnsCount>1</ColumnsCount>
+							<EqualColumnsWidth>true</EqualColumnsWidth>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ВыбиратьАвтоматически</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТолстыйКлиент</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТонкийКлиент</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ВебКлиент</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ТекущийРежимЗапускаКонтекстноеМеню" id="49"/>
+							<ExtendedTooltip name="ТекущийРежимЗапускаРасширеннаяПодсказка" id="50"/>
+						</RadioButtonField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -170,7 +261,7 @@
 		</LabelField>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Список" id="46">
+		<Attribute name="Список" id="52">
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
@@ -197,7 +288,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="ПутьКБазе" id="2">
+		<Attribute name="ПутьКБазе" id="54">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -223,6 +314,40 @@
 				<v8:Type>cfg:EnumRef.Ар_ТипыРасположенияИнформационныйБазы</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="СохраненныеНастройки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохраненные настройки</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+			<Save>
+				<Field>СохраненныеНастройки</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ТекущаяРазрядность" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая разрядность</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.Ар_Разрядность</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийРежимЗапуска" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий режим запуска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.Ар_РежимЗапуска</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ГрупповоеИзменение_ИзменитьВыделенныеКоманда" id="1">
@@ -239,6 +364,24 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ГрупповоеИзменение_ИзменитьВыделенныеКоманда</Action>
+		</Command>
+		<Command name="УдалитьСохраненныеНастройкиКоманда" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить сохраненные настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить сохраненные настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Ар_database_refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 		</Command>
 	</Commands>
 	<CommandInterface>

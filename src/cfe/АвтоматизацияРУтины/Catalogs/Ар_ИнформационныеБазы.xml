@@ -1064,8 +1064,7 @@
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
 			<Form>Кластер_СвойстваБлокировокИнформационнойБазы</Form>
-			<Form>Кластер_Сеансы</Form>
-			<Form>Кластер_Соединения</Form>
+			<Form>Кластер_ПроизвольныеДанные</Form>
 			<Command uuid="3d4eec2b-627f-45a1-a405-185381f77399">
 				<Properties>
 					<Name>ОткрытьПредприятие</Name>
@@ -1148,6 +1147,31 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Обновить обязательные реквизиты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>CommandGroup.Ар_ИнформационныеБазы</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:CatalogRef.Ар_ИнформационныеБазы</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture>
+						<xr:Ref>CommonPicture.Ар_database_refresh</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shortcut/>
+				</Properties>
+			</Command>
+			<Command uuid="e56fa453-3b63-41ac-8d55-3430bd453d13">
+				<Properties>
+					<Name>УдалитьСохраненныеНастройки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удалить сохраненные настройки</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

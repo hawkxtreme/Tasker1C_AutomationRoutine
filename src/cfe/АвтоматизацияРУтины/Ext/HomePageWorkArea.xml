@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
-	<WorkingAreaTemplate>OneColumn</WorkingAreaTemplate>
-	<Column>
+	<WorkingAreaTemplate>TwoColumnsEqualWidth</WorkingAreaTemplate>
+	<LeftColumn/>
+	<RightColumn>
 		<Item>
-			<Form>c82381eb-14cf-4b0a-9ab4-c140e117a1c6</Form>
+			<Form>Catalog.Ар_ИнформационныеБазы.Form.ФормаСписка</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Item>
-	</Column>
+	</RightColumn>
 </HomePageWorkArea>
