@@ -200,6 +200,9 @@
 							</ChoiceList>
 							<ContextMenu name="ТекущаяРазрядностьКонтекстноеМеню" id="46"/>
 							<ExtendedTooltip name="ТекущаяРазрядностьРасширеннаяПодсказка" id="47"/>
+							<Events>
+								<Event name="OnChange">ТекущаяРазрядностьПриИзменении</Event>
+							</Events>
 						</RadioButtonField>
 						<RadioButtonField name="ТекущийРежимЗапуска" id="48">
 							<DataPath>ТекущийРежимЗапуска</DataPath>
@@ -233,17 +236,12 @@
 										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТонкийКлиент</Value>
 									</xr:Value>
 								</xr:Item>
-								<xr:Item>
-									<xr:Presentation/>
-									<xr:CheckState>0</xr:CheckState>
-									<xr:Value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation/>
-										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ВебКлиент</Value>
-									</xr:Value>
-								</xr:Item>
 							</ChoiceList>
 							<ContextMenu name="ТекущийРежимЗапускаКонтекстноеМеню" id="49"/>
 							<ExtendedTooltip name="ТекущийРежимЗапускаРасширеннаяПодсказка" id="50"/>
+							<Events>
+								<Event name="OnChange">ТекущийРежимЗапускаПриИзменении</Event>
+							</Events>
 						</RadioButtonField>
 					</ChildItems>
 				</UsualGroup>

@@ -7,436 +7,500 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ОбщаяГруппа" id="73">
+		<Pages name="Страницы" id="80">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Общая группа</v8:content>
+					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Общая группа</v8:content>
+					<v8:content>Страницы</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ОбщаяГруппаРасширеннаяПодсказка" id="74"/>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="81"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаЛево" id="67">
+				<Page name="СтраницаОсновное" id="82">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа лево</v8:content>
+							<v8:content>Основное</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа лево</v8:content>
+							<v8:content>Страница основное</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>Vertical</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаЛевоРасширеннаяПодсказка" id="68"/>
+					<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="83"/>
 					<ChildItems>
-						<UsualGroup name="ОсновныеПараметры" id="71">
+						<UsualGroup name="ОбщаяГруппа" id="73">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Основные параметры</v8:content>
+									<v8:content>Общая группа</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Основные параметры</v8:content>
+									<v8:content>Общая группа</v8:content>
 								</v8:item>
 							</ToolTip>
-							<Group>Vertical</Group>
-							<ExtendedTooltip name="ОсновныеПараметрыРасширеннаяПодсказка" id="72"/>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОбщаяГруппаРасширеннаяПодсказка" id="74"/>
 							<ChildItems>
-								<InputField name="Наименование" id="4">
-									<DataPath>Объект.Description</DataPath>
-									<ReadOnly>true</ReadOnly>
+								<UsualGroup name="ГруппаЛево" id="67">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Укажите имя информационной базы</v8:content>
+											<v8:content>Группа лево</v8:content>
 										</v8:item>
 									</Title>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-								</InputField>
-								<InputField name="Владелец" id="7">
-									<DataPath>Объект.Owner</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
-									<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
-								</InputField>
-								<InputField name="Конфигурация" id="10">
-									<DataPath>Объект.Конфигурация</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="КонфигурацияКонтекстноеМеню" id="11"/>
-									<ExtendedTooltip name="КонфигурацияРасширеннаяПодсказка" id="12"/>
-								</InputField>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа лево</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЛевоРасширеннаяПодсказка" id="68"/>
+									<ChildItems>
+										<UsualGroup name="ОсновныеПараметры" id="71">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Основные параметры</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Основные параметры</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<ExtendedTooltip name="ОсновныеПараметрыРасширеннаяПодсказка" id="72"/>
+											<ChildItems>
+												<InputField name="Наименование" id="4">
+													<DataPath>Объект.Description</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Укажите имя информационной базы</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+													<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+												</InputField>
+												<InputField name="Владелец" id="7">
+													<DataPath>Объект.Owner</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+													<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+												</InputField>
+												<InputField name="Конфигурация" id="10">
+													<DataPath>Объект.Конфигурация</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КонфигурацияКонтекстноеМеню" id="11"/>
+													<ExtendedTooltip name="КонфигурацияРасширеннаяПодсказка" id="12"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаАвторизация" id="75">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Авторизация</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа авторизация</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<ExtendedTooltip name="ГруппаАвторизацияРасширеннаяПодсказка" id="76"/>
+											<ChildItems>
+												<InputField name="Логин" id="16">
+													<DataPath>Объект.Логин</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ЛогинКонтекстноеМеню" id="17"/>
+													<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="18"/>
+												</InputField>
+												<InputField name="Пароль" id="19">
+													<DataPath>Объект.Пароль</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПарольКонтекстноеМеню" id="20"/>
+													<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="21"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<RadioButtonField name="ТипРасположенияИнформационныйБазы" id="13">
+											<DataPath>Объект.ТипРасположенияИнформационныйБазы</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выберете тип расположения информационной базы</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Top</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<RadioButtonType>Auto</RadioButtonType>
+											<ColumnsCount>1</ColumnsCount>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>На данном компьютере или на компьютере в локальной сети</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xr:DesignTimeRef">Enum.Ар_ТипыРасположенияИнформационныйБазы.EnumValue.НаДанномКомпьютереИлиНаКомпьютереВЛокальнойСети</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>На сервере 1С:Предприятия</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xr:DesignTimeRef">Enum.Ар_ТипыРасположенияИнформационныйБазы.EnumValue.НаСервере1СПредприятия</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="ТипРасположенияИнформационныйБазыКонтекстноеМеню" id="14"/>
+											<ExtendedTooltip name="ТипРасположенияИнформационныйБазыРасширеннаяПодсказка" id="15"/>
+											<Events>
+												<Event name="OnChange">ТипРасположенияИнформационныйБазыПриИзменении</Event>
+											</Events>
+										</RadioButtonField>
+										<Pages name="СтраницыТипыРасположенияИнформационнойБазы" id="55">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Типы расположения информационной базы</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страницы типы расположения информационной базы</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницыТипыРасположенияИнформационнойБазыРасширеннаяПодсказка" id="56"/>
+											<ChildItems>
+												<Page name="СтраницаНаДанномКомпьютереИлиНаКомпьютереВЛокальнойСети" id="57">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>На данном компьютере или на компьютере в локальной сети</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница на данном компьютере или на компьютере в локальной сети</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="СтраницаНаДанномКомпьютереИлиНаКомпьютереВЛокальнойСетиРасширеннаяПодсказка" id="58"/>
+													<ChildItems>
+														<InputField name="КаталогИнформационнойБазы" id="40">
+															<DataPath>Объект.КаталогИнформационнойБазы</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<TitleLocation>Top</TitleLocation>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="КаталогИнформационнойБазыКонтекстноеМеню" id="41"/>
+															<ExtendedTooltip name="КаталогИнформационнойБазыРасширеннаяПодсказка" id="42"/>
+														</InputField>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаНаВебСервере" id="59">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>На веб сервере</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница на веб сервере</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="СтраницаНаВебСервереРасширеннаяПодсказка" id="60"/>
+													<ChildItems>
+														<InputField name="АдресИнформационнойБазы" id="43">
+															<DataPath>Объект.АдресИнформационнойБазы</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<TitleLocation>Top</TitleLocation>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="АдресИнформационнойБазыКонтекстноеМеню" id="44"/>
+															<ExtendedTooltip name="АдресИнформационнойБазыРасширеннаяПодсказка" id="45"/>
+														</InputField>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаНаСервере1СПредприятия" id="61">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>На сервере 1С:Предприятия</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница на сервере1 с предприятия</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="СтраницаНаСервере1СПредприятияРасширеннаяПодсказка" id="62"/>
+													<ChildItems>
+														<InputField name="КластерСерверов" id="46">
+															<DataPath>Объект.КластерСерверов</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<TitleLocation>Top</TitleLocation>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="КластерСерверовКонтекстноеМеню" id="47"/>
+															<ExtendedTooltip name="КластерСерверовРасширеннаяПодсказка" id="48"/>
+														</InputField>
+														<InputField name="ИмяИнформационнойБазы" id="49">
+															<DataPath>Объект.ИмяИнформационнойБазы</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<TitleLocation>Top</TitleLocation>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ИмяИнформационнойБазыКонтекстноеМеню" id="50"/>
+															<ExtendedTooltip name="ИмяИнформационнойБазыРасширеннаяПодсказка" id="51"/>
+														</InputField>
+													</ChildItems>
+												</Page>
+											</ChildItems>
+										</Pages>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаПраво" id="69">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа право</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа право</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="70"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаХранилище" id="63">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Хранилище</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа хранилище</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<ExtendedTooltip name="ГруппаХранилищеРасширеннаяПодсказка" id="64"/>
+											<ChildItems>
+												<InputField name="Хранилище" id="22">
+													<DataPath>Объект.Хранилище</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ХранилищеКонтекстноеМеню" id="23"/>
+													<ExtendedTooltip name="ХранилищеРасширеннаяПодсказка" id="24"/>
+												</InputField>
+												<InputField name="ЛогинХранилища" id="25">
+													<DataPath>Объект.ЛогинХранилища</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Логин</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ЛогинХранилищаКонтекстноеМеню" id="26"/>
+													<ExtendedTooltip name="ЛогинХранилищаРасширеннаяПодсказка" id="27"/>
+												</InputField>
+												<InputField name="ПарольХранилища" id="28">
+													<DataPath>Объект.ПарольХранилища</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пароль</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПарольХранилищаКонтекстноеМеню" id="29"/>
+													<ExtendedTooltip name="ПарольХранилищаРасширеннаяПодсказка" id="30"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ПараметрыЗапуска" id="65">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Параметры запуска</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Параметры запуска</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<ExtendedTooltip name="ПараметрыЗапускаРасширеннаяПодсказка" id="66"/>
+											<ChildItems>
+												<InputField name="ДополнительныеПараметрыЗапуска" id="31">
+													<DataPath>Объект.ДополнительныеПараметрыЗапуска</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ДополнительныеПараметрыЗапускаКонтекстноеМеню" id="32"/>
+													<ExtendedTooltip name="ДополнительныеПараметрыЗапускаРасширеннаяПодсказка" id="33"/>
+												</InputField>
+												<InputField name="ВнешняяОбработка" id="77">
+													<DataPath>Объект.ВнешняяОбработка</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<ChoiceButton>true</ChoiceButton>
+													<ContextMenu name="ВнешняяОбработкаКонтекстноеМеню" id="78"/>
+													<ExtendedTooltip name="ВнешняяОбработкаРасширеннаяПодсказка" id="79"/>
+												</InputField>
+												<RadioButtonField name="ОсновнойРежимЗапуска" id="52">
+													<DataPath>Объект.ОсновнойРежимЗапуска</DataPath>
+													<TitleLocation>Top</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<RadioButtonType>Auto</RadioButtonType>
+													<ColumnsCount>1</ColumnsCount>
+													<ChoiceList>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Выбирать автоматически</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ВыбиратьАвтоматически</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Тонкий клиент</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТонкийКлиент</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Толстый клиент</v8:content>
+																	</v8:item>
+																</Presentation>
+																<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТолстыйКлиент</Value>
+															</xr:Value>
+														</xr:Item>
+													</ChoiceList>
+													<ContextMenu name="ОсновнойРежимЗапускаКонтекстноеМеню" id="53"/>
+													<ExtendedTooltip name="ОсновнойРежимЗапускаРасширеннаяПодсказка" id="54"/>
+												</RadioButtonField>
+												<InputField name="Версия1С" id="34">
+													<DataPath>Объект.Версия1С</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="Версия1СКонтекстноеМеню" id="35"/>
+													<ExtendedTooltip name="Версия1СРасширеннаяПодсказка" id="36"/>
+												</InputField>
+												<InputField name="Разрядность" id="37">
+													<DataPath>Объект.Разрядность</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="РазрядностьКонтекстноеМеню" id="38"/>
+													<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="39"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаАвторизация" id="75">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Авторизация</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа авторизация</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<ExtendedTooltip name="ГруппаАвторизацияРасширеннаяПодсказка" id="76"/>
-							<ChildItems>
-								<InputField name="Логин" id="16">
-									<DataPath>Объект.Логин</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ЛогинКонтекстноеМеню" id="17"/>
-									<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="18"/>
-								</InputField>
-								<InputField name="Пароль" id="19">
-									<DataPath>Объект.Пароль</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ПарольКонтекстноеМеню" id="20"/>
-									<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="21"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<RadioButtonField name="ТипРасположенияИнформационныйБазы" id="13">
-							<DataPath>Объект.ТипРасположенияИнформационныйБазы</DataPath>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаСлужебная" id="84">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница служебная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСлужебнаяРасширеннаяПодсказка" id="85"/>
+					<ChildItems>
+						<CheckBoxField name="ЛичныйФайл" id="89">
+							<DataPath>Объект.ЛичныйФайл</DataPath>
 							<ReadOnly>true</ReadOnly>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Выберете тип расположения информационной базы</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Top</TitleLocation>
-							<EditMode>EnterOnInput</EditMode>
-							<RadioButtonType>Auto</RadioButtonType>
-							<ColumnsCount>1</ColumnsCount>
-							<ChoiceList>
-								<xr:Item>
-									<xr:Presentation/>
-									<xr:CheckState>0</xr:CheckState>
-									<xr:Value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>На данном компьютере или на компьютере в локальной сети</v8:content>
-											</v8:item>
-										</Presentation>
-										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_ТипыРасположенияИнформационныйБазы.EnumValue.НаДанномКомпьютереИлиНаКомпьютереВЛокальнойСети</Value>
-									</xr:Value>
-								</xr:Item>
-								<xr:Item>
-									<xr:Presentation/>
-									<xr:CheckState>0</xr:CheckState>
-									<xr:Value xsi:type="FormChoiceListDesTimeValue">
-										<Presentation>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>На сервере 1С:Предприятия</v8:content>
-											</v8:item>
-										</Presentation>
-										<Value xsi:type="xr:DesignTimeRef">Enum.Ар_ТипыРасположенияИнформационныйБазы.EnumValue.НаСервере1СПредприятия</Value>
-									</xr:Value>
-								</xr:Item>
-							</ChoiceList>
-							<ContextMenu name="ТипРасположенияИнформационныйБазыКонтекстноеМеню" id="14"/>
-							<ExtendedTooltip name="ТипРасположенияИнформационныйБазыРасширеннаяПодсказка" id="15"/>
-							<Events>
-								<Event name="OnChange">ТипРасположенияИнформационныйБазыПриИзменении</Event>
-							</Events>
-						</RadioButtonField>
-						<Pages name="СтраницыТипыРасположенияИнформационнойБазы" id="55">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Типы расположения информационной базы</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Страницы типы расположения информационной базы</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ExtendedTooltip name="СтраницыТипыРасположенияИнформационнойБазыРасширеннаяПодсказка" id="56"/>
-							<ChildItems>
-								<Page name="СтраницаНаДанномКомпьютереИлиНаКомпьютереВЛокальнойСети" id="57">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>На данном компьютере или на компьютере в локальной сети</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница на данном компьютере или на компьютере в локальной сети</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="СтраницаНаДанномКомпьютереИлиНаКомпьютереВЛокальнойСетиРасширеннаяПодсказка" id="58"/>
-									<ChildItems>
-										<InputField name="КаталогИнформационнойБазы" id="40">
-											<DataPath>Объект.КаталогИнформационнойБазы</DataPath>
-											<ReadOnly>true</ReadOnly>
-											<TitleLocation>Top</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="КаталогИнформационнойБазыКонтекстноеМеню" id="41"/>
-											<ExtendedTooltip name="КаталогИнформационнойБазыРасширеннаяПодсказка" id="42"/>
-										</InputField>
-									</ChildItems>
-								</Page>
-								<Page name="СтраницаНаВебСервере" id="59">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>На веб сервере</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница на веб сервере</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="СтраницаНаВебСервереРасширеннаяПодсказка" id="60"/>
-									<ChildItems>
-										<InputField name="АдресИнформационнойБазы" id="43">
-											<DataPath>Объект.АдресИнформационнойБазы</DataPath>
-											<ReadOnly>true</ReadOnly>
-											<TitleLocation>Top</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="АдресИнформационнойБазыКонтекстноеМеню" id="44"/>
-											<ExtendedTooltip name="АдресИнформационнойБазыРасширеннаяПодсказка" id="45"/>
-										</InputField>
-									</ChildItems>
-								</Page>
-								<Page name="СтраницаНаСервере1СПредприятия" id="61">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>На сервере 1С:Предприятия</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Страница на сервере1 с предприятия</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="СтраницаНаСервере1СПредприятияРасширеннаяПодсказка" id="62"/>
-									<ChildItems>
-										<InputField name="КластерСерверов" id="46">
-											<DataPath>Объект.КластерСерверов</DataPath>
-											<ReadOnly>true</ReadOnly>
-											<TitleLocation>Top</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="КластерСерверовКонтекстноеМеню" id="47"/>
-											<ExtendedTooltip name="КластерСерверовРасширеннаяПодсказка" id="48"/>
-										</InputField>
-										<InputField name="ИмяИнформационнойБазы" id="49">
-											<DataPath>Объект.ИмяИнформационнойБазы</DataPath>
-											<ReadOnly>true</ReadOnly>
-											<TitleLocation>Top</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ИмяИнформационнойБазыКонтекстноеМеню" id="50"/>
-											<ExtendedTooltip name="ИмяИнформационнойБазыРасширеннаяПодсказка" id="51"/>
-										</InputField>
-									</ChildItems>
-								</Page>
-							</ChildItems>
-						</Pages>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЛичныйФайлКонтекстноеМеню" id="90"/>
+							<ExtendedTooltip name="ЛичныйФайлРасширеннаяПодсказка" id="91"/>
+						</CheckBoxField>
+						<InputField name="ПутьКФайлуСписка" id="86">
+							<DataPath>Объект.ПутьКФайлуСписка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ПутьКФайлуСпискаКонтекстноеМеню" id="87"/>
+							<ExtendedTooltip name="ПутьКФайлуСпискаРасширеннаяПодсказка" id="88"/>
+						</InputField>
 					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ГруппаПраво" id="69">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа право</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа право</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>Vertical</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="70"/>
-					<ChildItems>
-						<UsualGroup name="ГруппаХранилище" id="63">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Хранилище</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа хранилище</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<ExtendedTooltip name="ГруппаХранилищеРасширеннаяПодсказка" id="64"/>
-							<ChildItems>
-								<InputField name="Хранилище" id="22">
-									<DataPath>Объект.Хранилище</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ХранилищеКонтекстноеМеню" id="23"/>
-									<ExtendedTooltip name="ХранилищеРасширеннаяПодсказка" id="24"/>
-								</InputField>
-								<InputField name="ЛогинХранилища" id="25">
-									<DataPath>Объект.ЛогинХранилища</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Логин</v8:content>
-										</v8:item>
-									</Title>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ЛогинХранилищаКонтекстноеМеню" id="26"/>
-									<ExtendedTooltip name="ЛогинХранилищаРасширеннаяПодсказка" id="27"/>
-								</InputField>
-								<InputField name="ПарольХранилища" id="28">
-									<DataPath>Объект.ПарольХранилища</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Пароль</v8:content>
-										</v8:item>
-									</Title>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ПарольХранилищаКонтекстноеМеню" id="29"/>
-									<ExtendedTooltip name="ПарольХранилищаРасширеннаяПодсказка" id="30"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ПараметрыЗапуска" id="65">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Параметры запуска</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Параметры запуска</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Vertical</Group>
-							<ExtendedTooltip name="ПараметрыЗапускаРасширеннаяПодсказка" id="66"/>
-							<ChildItems>
-								<InputField name="ДополнительныеПараметрыЗапуска" id="31">
-									<DataPath>Объект.ДополнительныеПараметрыЗапуска</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ДополнительныеПараметрыЗапускаКонтекстноеМеню" id="32"/>
-									<ExtendedTooltip name="ДополнительныеПараметрыЗапускаРасширеннаяПодсказка" id="33"/>
-								</InputField>
-								<InputField name="ВнешняяОбработка" id="77">
-									<DataPath>Объект.ВнешняяОбработка</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<ChoiceButton>true</ChoiceButton>
-									<ContextMenu name="ВнешняяОбработкаКонтекстноеМеню" id="78"/>
-									<ExtendedTooltip name="ВнешняяОбработкаРасширеннаяПодсказка" id="79"/>
-								</InputField>
-								<RadioButtonField name="ОсновнойРежимЗапуска" id="52">
-									<DataPath>Объект.ОсновнойРежимЗапуска</DataPath>
-									<TitleLocation>Top</TitleLocation>
-									<EditMode>EnterOnInput</EditMode>
-									<RadioButtonType>Auto</RadioButtonType>
-									<ColumnsCount>1</ColumnsCount>
-									<ChoiceList>
-										<xr:Item>
-											<xr:Presentation/>
-											<xr:CheckState>0</xr:CheckState>
-											<xr:Value xsi:type="FormChoiceListDesTimeValue">
-												<Presentation>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Выбирать автоматически</v8:content>
-													</v8:item>
-												</Presentation>
-												<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ВыбиратьАвтоматически</Value>
-											</xr:Value>
-										</xr:Item>
-										<xr:Item>
-											<xr:Presentation/>
-											<xr:CheckState>0</xr:CheckState>
-											<xr:Value xsi:type="FormChoiceListDesTimeValue">
-												<Presentation>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Тонкий клиент</v8:content>
-													</v8:item>
-												</Presentation>
-												<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТонкийКлиент</Value>
-											</xr:Value>
-										</xr:Item>
-										<xr:Item>
-											<xr:Presentation/>
-											<xr:CheckState>0</xr:CheckState>
-											<xr:Value xsi:type="FormChoiceListDesTimeValue">
-												<Presentation>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Толстый клиент</v8:content>
-													</v8:item>
-												</Presentation>
-												<Value xsi:type="xr:DesignTimeRef">Enum.Ар_РежимЗапуска.EnumValue.ТолстыйКлиент</Value>
-											</xr:Value>
-										</xr:Item>
-									</ChoiceList>
-									<ContextMenu name="ОсновнойРежимЗапускаКонтекстноеМеню" id="53"/>
-									<ExtendedTooltip name="ОсновнойРежимЗапускаРасширеннаяПодсказка" id="54"/>
-								</RadioButtonField>
-								<InputField name="Версия1С" id="34">
-									<DataPath>Объект.Версия1С</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="Версия1СКонтекстноеМеню" id="35"/>
-									<ExtendedTooltip name="Версия1СРасширеннаяПодсказка" id="36"/>
-								</InputField>
-								<InputField name="Разрядность" id="37">
-									<DataPath>Объект.Разрядность</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="РазрядностьКонтекстноеМеню" id="38"/>
-									<ExtendedTooltip name="РазрядностьРасширеннаяПодсказка" id="39"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-					</ChildItems>
-				</UsualGroup>
+				</Page>
 			</ChildItems>
-		</UsualGroup>
+		</Pages>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
