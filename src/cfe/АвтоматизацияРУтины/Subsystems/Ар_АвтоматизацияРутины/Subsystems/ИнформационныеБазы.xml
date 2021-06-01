@@ -17,6 +17,22 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Ар_ИнформационныеБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Ар_Хранилища</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ИнформационныеБазыКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ИнформационныеБазыВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_ИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_КомандыПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_КомандыКонфигуратора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_Кластер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_enterprise</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_designer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_database</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_database_refresh</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_cluster</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_ТипыРасположенияИнформационныйБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_Разрядность</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_РежимЗапуска</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_ВариантыАутентификации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

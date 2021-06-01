@@ -264,6 +264,9 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<FunctionalOptions>
+				<Item>d4e59cdc-ea67-42d3-b2f2-25185f49481b</Item>
+			</FunctionalOptions>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>

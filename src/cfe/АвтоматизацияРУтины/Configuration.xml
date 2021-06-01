@@ -64,6 +64,7 @@
 			<CommonPicture>Ар_database_refresh</CommonPicture>
 			<CommonPicture>Ар_designer</CommonPicture>
 			<CommonPicture>Ар_enterprise</CommonPicture>
+			<Role>Ар_ИнформационныеБазы</Role>
 			<Role>Ар_ПолныеПрава</Role>
 			<Role>Ар_Пользователь</Role>
 			<CommonModule>Ар_ИнформационныеБазы</CommonModule>
@@ -87,9 +88,11 @@
 			<Catalog>узСпринты</Catalog>
 			<Catalog>узСтатусыЗадачи</Catalog>
 			<Document>узВыпускРелиза</Document>
+			<Enum>Ар_ВариантыАутентификации</Enum>
 			<Enum>Ар_Разрядность</Enum>
 			<Enum>Ар_РежимЗапуска</Enum>
 			<Enum>Ар_ТипыРасположенияИнформационныйБазы</Enum>
+			<DataProcessor>Ар_НастройкиПользователя</DataProcessor>
 			<DataProcessor>Ар_ПомощникСборкиРелизов</DataProcessor>
 			<DataProcessor>Ар_СозданиеФайлаНастроекОбъединения</DataProcessor>
 			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>

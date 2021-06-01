@@ -26,7 +26,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Основное</v8:content>
+							<v8:content>Главная</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -135,6 +135,35 @@
 											<Group>Vertical</Group>
 											<ExtendedTooltip name="ГруппаАвторизацияРасширеннаяПодсказка" id="76"/>
 											<ChildItems>
+												<RadioButtonField name="ВариантАутентификации" id="92">
+													<DataPath>Объект.ВариантАутентификации</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<RadioButtonType>Auto</RadioButtonType>
+													<ColumnsCount>1</ColumnsCount>
+													<ChoiceList>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation/>
+																<Value xsi:type="xr:DesignTimeRef">Enum.Ар_ВариантыАутентификации.EnumValue.АутентификацияWindows</Value>
+															</xr:Value>
+														</xr:Item>
+														<xr:Item>
+															<xr:Presentation/>
+															<xr:CheckState>0</xr:CheckState>
+															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																<Presentation/>
+																<Value xsi:type="xr:DesignTimeRef">Enum.Ар_ВариантыАутентификации.EnumValue.ЛогинПароль</Value>
+															</xr:Value>
+														</xr:Item>
+													</ChoiceList>
+													<ContextMenu name="ВариантАутентификацииКонтекстноеМеню" id="93"/>
+													<ExtendedTooltip name="ВариантАутентификацииРасширеннаяПодсказка" id="94"/>
+													<Events>
+														<Event name="OnChange">ВариантАутентификацииПриИзменении</Event>
+													</Events>
+												</RadioButtonField>
 												<InputField name="Логин" id="16">
 													<DataPath>Объект.Логин</DataPath>
 													<TitleLocation>Top</TitleLocation>
@@ -509,6 +538,9 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+			<FunctionalOptions>
+				<Item>d4e59cdc-ea67-42d3-b2f2-25185f49481b</Item>
+			</FunctionalOptions>
 		</Attribute>
 	</Attributes>
 </Form>

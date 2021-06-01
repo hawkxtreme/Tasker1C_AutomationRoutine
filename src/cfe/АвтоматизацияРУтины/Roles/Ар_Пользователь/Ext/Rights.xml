@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>CommonForm.Ар_ФормаАутентификации</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Ар_АвтоматизацияРутины.Subsystem.ВыпускиРелизов</name>
 		<right>
 			<name>View</name>
@@ -12,6 +19,17 @@
 	</object>
 	<object>
 		<name>DataProcessor.Ар_СозданиеФайлаНастроекОбъединения.Command.СоздатьФайлНастроекОбъединения</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Ар_Хранилища</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -59,9 +77,38 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.Ар_ВыгрузитьПоследнююВерсиюХранилища</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.Ар_НастройкиПользователя</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.Ар_СозданиеФайлаНастроекОбъединения</name>
 		<right>
 			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Ар_ИнформационныеБазы</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
