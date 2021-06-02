@@ -526,6 +526,12 @@
 							<ContextMenu name="ПутьКФайлуСпискаКонтекстноеМеню" id="87"/>
 							<ExtendedTooltip name="ПутьКФайлуСпискаРасширеннаяПодсказка" id="88"/>
 						</InputField>
+						<InputField name="УникальныйИдентификатор" id="95">
+							<DataPath>Объект.УникальныйИдентификатор</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="УникальныйИдентификаторКонтекстноеМеню" id="96"/>
+							<ExtendedTooltip name="УникальныйИдентификаторРасширеннаяПодсказка" id="97"/>
+						</InputField>
 					</ChildItems>
 				</Page>
 			</ChildItems>
