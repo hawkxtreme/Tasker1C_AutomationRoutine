@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<Subsystem uuid="e3d17670-39ef-4126-86e9-9d7b37afcf39">
+		<Properties>
+			<Name>ИнформационныеБазы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационные базы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Ар_ИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Ар_Хранилища</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ИнформационныеБазыКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ИнформационныеБазыВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_ИнформационныеБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_КомандыПредприятия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_КомандыКонфигуратора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.Ар_Кластер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_enterprise</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_designer</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_database</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_database_refresh</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Ар_cluster</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_ТипыРасположенияИнформационныйБазы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_Разрядность</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_РежимЗапуска</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Ар_ВариантыАутентификации</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

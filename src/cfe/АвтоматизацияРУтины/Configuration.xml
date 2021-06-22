@@ -46,7 +46,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>1.0.0</Version>
+			<Version>1.1.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -59,21 +59,43 @@
 			<Language>Русский</Language>
 			<Subsystem>Ар_АвтоматизацияРутины</Subsystem>
 			<CommonPicture>Ар_arc1c</CommonPicture>
+			<CommonPicture>Ар_cluster</CommonPicture>
+			<CommonPicture>Ар_database</CommonPicture>
+			<CommonPicture>Ар_database_refresh</CommonPicture>
+			<CommonPicture>Ар_designer</CommonPicture>
+			<CommonPicture>Ар_enterprise</CommonPicture>
+			<Role>Ар_ИнформационныеБазы</Role>
 			<Role>Ар_ПолныеПрава</Role>
 			<Role>Ар_Пользователь</Role>
+			<CommonModule>Ар_ИнформационныеБазы</CommonModule>
+			<CommonModule>Ар_ИнформационныеБазыВызовСервера</CommonModule>
+			<CommonModule>Ар_ИнформационныеБазыКлиент</CommonModule>
 			<CommonModule>Ар_ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>Ар_РаботаСКоманднойСтрокойВызовСервера</CommonModule>
 			<CommonModule>Ар_РаботаСКоманднойСтрокойКлиентСервер</CommonModule>
 			<CommonCommand>Ар_ВыгрузитьПоследнююВерсиюХранилища</CommonCommand>
+			<CommandGroup>Ар_ИнформационныеБазы</CommandGroup>
+			<CommandGroup>Ар_Кластер</CommandGroup>
+			<CommandGroup>Ар_КомандыКонфигуратора</CommandGroup>
+			<CommandGroup>Ар_КомандыПредприятия</CommandGroup>
 			<CommandGroup>Ар_Хранилище</CommandGroup>
+			<CommonForm>Ар_ФормаАутентификации</CommonForm>
+			<Catalog>Ар_ИнформационныеБазы</Catalog>
+			<Catalog>Ар_Хранилища</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>узЗадачи</Catalog>
 			<Catalog>узКонфигурации</Catalog>
 			<Catalog>узСпринты</Catalog>
 			<Catalog>узСтатусыЗадачи</Catalog>
 			<Document>узВыпускРелиза</Document>
+			<Enum>Ар_ВариантыАутентификации</Enum>
+			<Enum>Ар_Разрядность</Enum>
+			<Enum>Ар_РежимЗапуска</Enum>
+			<Enum>Ар_ТипыРасположенияИнформационныйБазы</Enum>
+			<DataProcessor>Ар_НастройкиПользователя</DataProcessor>
 			<DataProcessor>Ар_ПомощникСборкиРелизов</DataProcessor>
 			<DataProcessor>Ар_СозданиеФайлаНастроекОбъединения</DataProcessor>
+			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>
 			<InformationRegister>узСпринтыЗадач</InformationRegister>
 		</ChildObjects>
 	</Configuration>

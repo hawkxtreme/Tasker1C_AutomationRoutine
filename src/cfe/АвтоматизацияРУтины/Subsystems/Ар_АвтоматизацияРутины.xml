@@ -24,6 +24,7 @@
 			</Content>
 		</Properties>
 		<ChildObjects>
+			<Subsystem>ИнформационныеБазы</Subsystem>
 			<Subsystem>ВыпускиРелизов</Subsystem>
 			<Subsystem>Общее</Subsystem>
 		</ChildObjects>

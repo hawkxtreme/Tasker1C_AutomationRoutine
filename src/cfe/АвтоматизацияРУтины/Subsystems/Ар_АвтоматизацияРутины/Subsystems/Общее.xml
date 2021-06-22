@@ -20,6 +20,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Ар_ВыгрузитьПоследнююВерсиюХранилища</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_РаботаСКоманднойСтрокойВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.Ар_ОбщегоНазначенияКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Ар_ФормаАутентификации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Ар_НастройкиПользователя</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
