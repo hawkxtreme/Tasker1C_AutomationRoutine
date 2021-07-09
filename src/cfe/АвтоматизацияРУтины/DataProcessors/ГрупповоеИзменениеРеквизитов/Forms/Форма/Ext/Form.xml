@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Bottom</CommandBarLocation>
@@ -665,7 +665,6 @@
 											<Button name="ОбъектыКоторыеНеУдалосьИзменитьИзменить" id="357">
 												<Type>CommandBarButton</Type>
 												<Representation>PictureAndText</Representation>
-												<OnlyInAllActions>true</OnlyInAllActions>
 												<CommandName>0</CommandName>
 												<Title>
 													<v8:item>
@@ -673,6 +672,7 @@
 														<v8:content>Открыть</v8:content>
 													</v8:item>
 												</Title>
+												<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ОбъектыКоторыеНеУдалосьИзменитьИзменитьРасширеннаяПодсказка" id="356"/>
 											</Button>
 										</ChildItems>
@@ -893,7 +893,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.8">
+	<BaseForm version="2.9.1">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<AutoTitle>false</AutoTitle>
 		<CommandBarLocation>Bottom</CommandBarLocation>
@@ -1559,7 +1559,6 @@
 												<Button name="ОбъектыКоторыеНеУдалосьИзменитьИзменить" id="165">
 													<Type>CommandBarButton</Type>
 													<Representation>PictureAndText</Representation>
-													<OnlyInAllActions>true</OnlyInAllActions>
 													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
@@ -1567,6 +1566,7 @@
 															<v8:content>Открыть</v8:content>
 														</v8:item>
 													</Title>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ОбъектыКоторыеНеУдалосьИзменитьИзменитьРасширеннаяПодсказка" id="166"/>
 												</Button>
 											</ChildItems>

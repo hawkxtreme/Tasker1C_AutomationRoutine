@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
 	<Catalog uuid="fbd4a991-068a-4019-b4e1-0ab95d8c1e5b">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Ар_ИнформационныеБазы" category="Object">
@@ -331,6 +331,8 @@
 			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="b9c28aba-e5e5-48c3-96b7-56a2dd959cc3">
@@ -1212,6 +1214,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="16f79623-ff65-4737-ae0a-e3001b410201">
@@ -1237,6 +1240,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="c44c3252-cf2b-4376-af02-9ccfd3158144">
@@ -1262,6 +1266,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="6ce8ece2-8b00-44fd-811f-bec12bfc2160">
@@ -1287,6 +1292,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="e56fa453-3b63-41ac-8d55-3430bd453d13">
@@ -1312,6 +1318,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="3d093e3a-3aa1-41e8-801e-19e67b34d7ad">
@@ -1337,6 +1344,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="dbb12df4-511f-409d-a487-340be7f60310">
@@ -1362,6 +1370,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="6579ee92-fa45-4037-a6b4-e40536e96fca">
@@ -1387,6 +1396,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="b3b56399-b5b1-4d41-b343-bc0bb3eb9c88">
@@ -1412,6 +1422,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="2e6c81f3-ff67-4911-85af-e345b9fb0b1c">
@@ -1437,6 +1448,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="5ad92a7d-5676-4e31-a53f-6f0f791e7b64">
@@ -1462,6 +1474,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="b08499bf-1d4f-4e61-aa4d-f9eb40cb470e">
@@ -1487,6 +1500,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="e50e9b4e-16c6-43b7-a86d-8d52b7041723">
@@ -1512,6 +1526,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="4bc79fe7-dce0-48cb-84c4-410171bfba40">
@@ -1537,6 +1552,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="da8d2ed8-7b5b-4ab0-bdff-bfa1a122cc9f">
@@ -1562,6 +1578,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 			<Command uuid="03a859b2-803f-4d15-ba1d-ec46530c0f44">
@@ -1587,6 +1604,7 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</Picture>
 					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>
 			</Command>
 		</ChildObjects>
