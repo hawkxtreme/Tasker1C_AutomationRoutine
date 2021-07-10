@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
 	<InformationRegister uuid="17c26f52-66ae-4809-9a37-de79829a7d6b">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.узСпринтыЗадач" category="Record">
@@ -35,25 +35,30 @@
 			<Name>узСпринтыЗадач</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>cfcdadeb-3af2-4fcc-82b4-913c31abefa0</ExtendedConfigurationObject>
 			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="a2801aa4-26e3-44ab-8819-c0b8b604b1b8">
+				<InternalInfo/>
 				<Properties>
 					<Name>Спринт</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>eb476344-2687-4890-9de3-baa291907a56</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.узСпринты</v8:Type>
 					</Type>
 				</Properties>
 			</Resource>
 			<Dimension uuid="cd463be6-db46-4b25-a11c-1208a56954e2">
+				<InternalInfo/>
 				<Properties>
 					<Name>Задача</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2400cccf-a047-4f1e-849e-78451fc95c77</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.узЗадачи</v8:Type>
 					</Type>

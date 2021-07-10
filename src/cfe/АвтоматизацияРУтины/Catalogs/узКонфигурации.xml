@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
 	<Catalog uuid="5741feb4-ce9a-4e20-9d61-ca5d8dee0b89">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.узКонфигурации" category="Object">
@@ -27,23 +27,28 @@
 			<Name>узКонфигурации</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0b3a5cc1-4730-4bfc-9813-12e64568eb55</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="b680f7de-299b-44af-b4fd-8cd6d07eb169">
+				<InternalInfo/>
 				<Properties>
 					<Name>ПолучатьИзмененияИзХранилища</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7336f648-7e84-42ac-94f4-5b29f69052ab</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="c785b270-6d82-481d-85d6-5687d2ec0ec8">
+				<InternalInfo/>
 				<Properties>
 					<Name>КаталогХранилища</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1c055eb9-7051-45b5-bd1b-c54b7c4b6d5b</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -54,10 +59,12 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="334ca524-072e-4633-836a-9f1b325dcc09">
+				<InternalInfo/>
 				<Properties>
 					<Name>ЭтоСервернаяБаза</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8b83f13e-70df-428c-9a5b-5d770bcaf83e</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>

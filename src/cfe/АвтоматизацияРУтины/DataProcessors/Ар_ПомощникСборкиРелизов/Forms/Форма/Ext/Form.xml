@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>Bottom</CommandBarLocation>
@@ -205,9 +205,11 @@
 								<ExcludedCommand>Delete</ExcludedCommand>
 								<ExcludedCommand>EndEdit</ExcludedCommand>
 								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 								<ExcludedCommand>MoveDown</ExcludedCommand>
 								<ExcludedCommand>MoveUp</ExcludedCommand>
 								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
 								<ExcludedCommand>SelectAll</ExcludedCommand>
 								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
 								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
@@ -396,6 +398,7 @@
 										<ExcludedCommand>OutputList</ExcludedCommand>
 										<ExcludedCommand>Refresh</ExcludedCommand>
 										<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+										<ExcludedCommand>SearchEverywhere</ExcludedCommand>
 										<ExcludedCommand>SearchHistory</ExcludedCommand>
 										<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 									</CommandSet>
@@ -494,12 +497,12 @@
 													<Button name="ЗадачиУдалить" id="145">
 														<Type>CommandBarButton</Type>
 														<Representation>Picture</Representation>
-														<OnlyInAllActions>true</OnlyInAllActions>
 														<CommandName>Form.Item.Задачи.StandardCommand.Delete</CommandName>
 														<Picture>
 															<xr:Ref>StdPicture.Delete</xr:Ref>
 															<xr:LoadTransparent>true</xr:LoadTransparent>
 														</Picture>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
 														<ExtendedTooltip name="ЗадачиУдалитьРасширеннаяПодсказка" id="146"/>
 													</Button>
 													<Button name="ЗадачиОчиститьВыбранныеЗадачи" id="141">
@@ -826,7 +829,7 @@
 				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>0:9ef73565-2250-4a35-9fb3-470bd19ca9ca</xr:Ref>
+				<xr:Ref>StdPicture.AppearanceCrossIcon</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОчиститьВыбранныеЗадачи</Action>
